@@ -15,13 +15,13 @@ The dataset, provided by Jane Street, contains an anonymized set of 129 features
 2) Tune XGBClassifier Hyperparameters using Optuna
 3) Fit the classifier on the training set and make predictions on test set
 
-*Heatmap to show correlations between the 129 features
+*Heatmap to show correlations between the 129 features*
 <img src="diagonal-correlation-heatmap.png"/>
 
-*Optimisation history plot (shows accuracy score against number of trials during hyperparameter tuning process)
+*Optimisation history plot (shows accuracy score against number of trials during hyperparameter tuning process)*
 <img src="optimisation-history-plot.png"/>
 
-*Plot showing the relative importances of different hyperparameters (generated using Optuna)
+*Plot showing the relative importances of different hyperparameters (generated using Optuna)*
 <img src="hyperparameter-importance-plot.png"/>
 
 # Results
