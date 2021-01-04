@@ -11,7 +11,7 @@ See jane-street-xgboost-classification.ipynb for the Jupyter Notebook.
 The dataset, provided by Jane Street, contains an anonymized set of 129 features and over 2 million potential trades based on actual stock market data. Each row in the dataset represents a trading opportunity, for which I predict an action value: 1 to make the trade and 0 to pass on it. 
 
 # Methods
-1) Data Cleaning and Exploratory Data Analysis
+1) Data Cleaning (e.g. imputation of missing values) and Exploratory Data Analysis
 2) Tune XGBClassifier Hyperparameters using Optuna
 3) Fit the classifier on the training set and make predictions on test set
 
